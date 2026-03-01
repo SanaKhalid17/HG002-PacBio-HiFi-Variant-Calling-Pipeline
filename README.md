@@ -1,8 +1,14 @@
 # HG002-PacBio-HiFi-Variant-Calling-Pipeline-Clair3-vs-DeepVariant-
 This repository contains a reproducible, containerized variant calling and benchmarking pipeline for PacBio HiFi HG002 data on GRCh38. The workflow was designed to run on an HPC cluster using SLURM, executed via Singularity/Apptainer containers for modularity and scalability.
 
-
-## Technologies Used
+![Nextflow](https://img.shields.io/badge/Nextflow-DSL2-23aa62)
+![SLURM](https://img.shields.io/badge/SLURM-HPC-blue)
+![Singularity](https://img.shields.io/badge/Singularity-Apptainer-1f6feb)
+![Minimap2](https://img.shields.io/badge/Minimap2-2.28-orange)
+![Samtools](https://img.shields.io/badge/Samtools-1.20-red)
+![Clair3](https://img.shields.io/badge/Clair3-HiFi-green)
+![DeepVariant](https://img.shields.io/badge/DeepVariant-1.6.1-ff9800)
+![hap.py](https://img.shields.io/badge/hap.py-vcfeval-purple)
 
 * **Workflow / Orchestration**
 
